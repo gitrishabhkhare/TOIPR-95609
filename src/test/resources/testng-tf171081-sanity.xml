@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<!--
+  TF-171081 Sanity Suite — exactly the 16 cases from the Excel sheet.
+  Run: mvn test -DsuiteXmlFile=src/test/resources/testng-tf171081-sanity.xml
+-->
+<suite name="TF-171081 iOS Sanity — 16 Cases" verbose="1" parallel="none">
+
+    <listeners>
+        <listener class-name="com.toi.listeners.RetryListener"/>
+    </listeners>
+
+    <test name="TF-171081 Sanity Cases">
+        <classes>
+
+            <!-- TC1: Live blog show page is opening fine -->
+            <class name="com.toi.tests.sanity.ContentSanityTest">
+                <methods>
+                    <include name="testLiveBlogPageOpens"/>
+                    <include name="testVideoShowPageOpens"/>
+                    <include name="testPhotoShowPageOpens"/>
+                    <include name="testArticlePageScrollDoesNotCrash"/>
+                </methods>
+            </class>
+
+            <!-- TC4: All login options working -->
+            <!-- TC5: Non-logged-in bookmark → login bottom sheet -->
+            <!-- TC6: Ads on home page -->
+            <!-- TC12: India under Left Nav -->
+            <!-- TC13: Exclusive tab loading -->
+            <!-- TC14: Watch tab working -->
+            <class name="com.toi.tests.sanity.NavigationSanityTest">
+                <methods>
+                    <include name="testAllLoginOptionsDisplayed"/>
+                    <include name="testBookmarkPromptLoginForNonLoggedInUser"/>
+                    <include name="testAdsAppearOnHomePage"/>
+                    <include name="testSideNavSectionListPagesLoad"/>
+                    <include name="testExclusiveTabLoading"/>
+                    <include name="testWatchTabLoading"/>
+                </methods>
+            </class>
+
+            <!-- TC10: Search working -->
+            <class name="com.toi.tests.sanity.SearchSanityTest">
+                <methods>
+                    <include name="testSearchReturnsResults"/>
+                </methods>
+            </class>
+
+            <!-- TC7: TOI+ blocker -->
+            <!-- TC8: TOI+ login -->
+            <!-- TC9: Ads not shown for TOI+ user -->
+            <class name="com.toi.tests.sanity.TOIPlusSanityTest">
+                <methods>
+                    <include name="testTOIPlusBlockerWithoutLogin"/>
+                    <include name="testTOIPlusLogin"/>
+                    <include name="testNoAdsForTOIPlusUser"/>
+                </methods>
+            </class>
+
+            <!-- TC15: ePaper tab loading -->
+            <!-- TC16: ePaper blocker for non-logged-in -->
+            <class name="com.toi.tests.sanity.EpaperSanityTest">
+                <methods>
+                    <include name="testEpaperTabLoading"/>
+                    <include name="testEpaperBlockerForNonLoggedInUser"/>
+                </methods>
+            </class>
+
+        </classes>
+    </test>
+
+</suite>

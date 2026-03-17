@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AppiumAUT>
+  <XCUIElementTypeApplication type="XCUIElementTypeApplication" name="TOI News" label="TOI News" enabled="true" visible="true" accessible="false" x="0" y="0" width="402" height="874" index="0" traits="" processId="29683" bundleId="com.2ergoTOI.jayant">
+    <XCUIElementTypeWindow type="XCUIElementTypeWindow" enabled="true" visible="true" accessible="false" x="0" y="0" width="402" height="874" index="0" traits="">
+      <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" accessible="false" x="0" y="0" width="402" height="874" index="0" traits="">
+        <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" accessible="false" x="0" y="0" width="402" height="874" index="0" traits="">
+          <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" accessible="false" x="0" y="0" width="402" height="874" index="0" traits="">
+            <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" accessible="false" x="0" y="0" width="402" height="874" index="0" traits="">
+              <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" accessible="false" x="0" y="0" width="402" height="874" index="0" traits="">
+                <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" accessible="false" x="0" y="0" width="402" height="874" index="0" traits="">
+                  <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" accessible="false" x="0" y="0" width="402" height="140" index="0" traits="">
+                    <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" accessible="false" x="0" y="0" width="402" height="100" index="0" traits="">
+                      <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" accessible="false" x="0" y="0" width="402" height="100" index="0" traits=""/>
+                      <XCUIElementTypeButton type="XCUIElementTypeButton" name="new backIcon light" label="new backIcon light" enabled="true" visible="true" accessible="true" x="12" y="54" width="24" height="44" index="1" traits="Button"/>
+                      <XCUIElementTypeImage type="XCUIElementTypeImage" name="plus_dark" enabled="true" visible="true" accessible="false" x="46" y="60" width="46" height="32" index="2" traits="Image"/>
+                      <XCUIElementTypeButton type="XCUIElementTypeButton" name="homePageProfileIcon" label="homePageProfileIcon" enabled="true" visible="true" accessible="true" x="352" y="54" width="44" height="44" index="3" traits="Button"/>
+                    </XCUIElementTypeOther>
+                    <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" accessible="false" x="0" y="100" width="402" height="40" index="1" traits="">
+                      <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" accessible="false" x="0" y="100" width="402" height="40" index="0" traits="">
+                        <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" accessible="false" x="0" y="100" width="402" height="40" index="0" traits="">
+                          <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" accessible="false" x="0" y="100" width="402" height="40" index="0" traits="">
+                            <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" accessible="false" x="0" y="100" width="402" height="1" index="0" traits=""/>
+                            <XCUIElementTypeCollectionView type="XCUIElementTypeCollectionView" enabled="true" visible="true" accessible="false" x="0" y="100" width="402" height="40" index="1" traits="">
+                              <XCUIElementTypeCell type="XCUIElementTypeCell" enabled="true" visible="true" accessible="false" x="8" y="100" width="79" height="40" index="0" traits="Selected">
+                                <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" accessible="false" x="8" y="100" width="78" height="40" index="0" traits="">
+                                  <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" accessible="false" x="8" y="100" width="78" height="38" index="0" traits="">
+                                    <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" accessible="false" x="8" y="100" width="78" height="38" index="0" traits="">
+                                      <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" accessible="false" x="16" y="108" width="63" height="22" index="0" traits="">
+                                        <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="Featured" name="Featured" label="Featured" enabled="true" visible="true" accessible="true" x="16" y="108" width="63" height="22" index="0" traits="StaticText"/>
+                                      </XCUIElementTypeOther>
+                                    </XCUIElementTypeOther>
+                                  </XCUIElementTypeOther>
+                                </XCUIElementTypeOther>
+                              </XCUIElementTypeCell>
+                              <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" accessible="false" x="16" y="100" width="63" height="40" index="1" traits="">
+                                <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" accessible="false" x="16" y="136" width="63" height="4" index="0" traits=""/>
+                              </XCUIElementTypeOther>
+                              <XCUIElementTypeCell type="XCUIElementTypeCell" enabled="true" visible="true" accessible="false" x="90" y="100" width="103" height="40" index="2" traits="">
+                                <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" accessible="false" x="90" y="100" width="103" height="40" index="0" traits="">
+                                  <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" accessible="false" x="90" y="100" width="103" height="38" index="0" traits="">
+                                    <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" accessible="false" x="90" y="100" width="103" height="38" index="0" traits="">
+                                      <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" accessible="false" x="97" y="108" width="89" height="22" index="0" traits="">
+                                        <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="TOI Explains" name="TOI Explains" label="TOI Explains" enabled="true" visible="true" accessible="true" x="97" y="108" width="89" height="22" index="0" traits="StaticText"/>
+                                      </XCUIElementTypeOther>
+                                    </XCUIElementTypeOther>
+                                  </XCUIElementTypeOther>
+                                </XCUIElementTypeOther>
+                              </XCUIElementTypeCell>
+                              <XCUIElementTypeCell type="XCUIElementTypeCell" enabled="true" visible="true" accessible="false" x="196" y="100" width="128" height="40" index="3" traits="">
+                                <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" accessible="false" x="196" y="100" width="128" height="40" index="0" traits="">
+                                  <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" accessible="false" x="196" y="100" width="128" height="38" index="0" traits="">
+                                    <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" accessible="false" x="196" y="100" width="128" height="38" index="0" traits="">
+                                      <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" accessible="false" x="202" y="108" width="115" height="22" index="0" traits="">
+                                        <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="New York Times" name="New York Times" label="New York Times" enabled="true" visible="true" accessible="true" x="202" y="108" width="115" height="22" index="0" traits="StaticText"/>
+                                      </XCUIElementTypeOther>
+                                    </XCUIElementTypeOther>
+                                  </XCUIElementTypeOther>
+                                </XCUIElementTypeOther>
+                              </XCUIElementTypeCell>
+                              <XCUIElementTypeCell type="XCUIElementTypeCell" enabled="true" visible="true" accessible="false" x="327" y="100" width="62" height="40" index="4" traits="">
+                                <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" accessible="false" x="327" y="100" width="62" height="40" index="0" traits="">
+                                  <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" accessible="false" x="327" y="100" width="62" height="38" index="0" traits="">
+                                    <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" accessible="false" x="327" y="100" width="62" height="38" index="0" traits="">
+                                      <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" accessible="false" x="334" y="108" width="48" height="22" index="0" traits="">
+                                        <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="Health" name="Health" label="Health" enabled="true" visible="true" accessible="true" x="334" y="108" width="48" height="22" index="0" traits="StaticText"/>
+                                      </XCUIElementTypeOther>
+                                    </XCUIElementTypeOther>
+                                  </XCUIElementTypeOther>
+                                </XCUIElementTypeOther>
+                              </XCUIElementTypeCell>
+                              <XCUIElementTypeCell type="XCUIElementTypeCell" enabled="true" visible="true" accessible="false" x="392" y="100" width="163" height="40" index="5" traits="">
+                                <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" accessible="false" x="392" y="100" width="163" height="40" index="0" traits="">
+                                  <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" accessible="false" x="392" y="100" width="163" height="38" index="0" traits="">
+                                    <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" accessible="false" x="392" y="100" width="163" height="38" index="0" traits="">
+                                      <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" accessible="false" x="398" y="108" width="152" height="22" index="0" traits="">
+                                        <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="Business &amp; Economy" name="Business &amp; Economy" label="Business &amp; Economy" enabled="true" visible="false" accessible="true" x="398" y="108" width="152" height="22" index="0" traits="StaticText"/>
+                                      </XCUIElementTypeOther>
+                                    </XCUIElementTypeOther>
+                                  </XCUIElementTypeOther>
+                                </XCUIElementTypeOther>
+                              </XCUIElementTypeCell>
+                              <XCUIElementTypeOther type="XCUIElementTypeOther" value="0%" name="Vertical scroll bar, 7 pages" label="Vertical scroll bar, 7 pages" enabled="true" visible="true" accessible="false" x="369" y="100" width="30" height="40" index="6" traits="Adjustable">
+                                <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" accessible="false" x="396" y="130" width="3" height="7" index="0" traits=""/>
+                              </XCUIElementTypeOther>
+                              <XCUIElementTypeOther type="XCUIElementTypeOther" value="0%" name="Vertical scroll bar, 7 pages" label="Vertical scroll bar, 7 pages" enabled="true" visible="true" accessible="false" x="369" y="100" width="30" height="40" index="7" traits="Adjustable">
+                                <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" accessible="false" x="396" y="130" width="3" height="7" index="0" traits=""/>
+                              </XCUIElementTypeOther>
+                            </XCUIElementTypeCollectionView>
+                            <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" accessible="false" x="0" y="139" width="402" height="1" index="2" traits=""/>
+                          </XCUIElementTypeOther>
+                        </XCUIElementTypeOther>
+                      </XCUIElementTypeOther>
+                    </XCUIElementTypeOther>
+                  </XCUIElementTypeOther>
+                  <XCUIElementTypeScrollView type="XCUIElementTypeScrollView" enabled="true" visible="true" accessible="false" x="0" y="40" width="402" height="800" index="1" traits="">
+                    <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" accessible="false" x="0" y="40" width="402" height="800" index="0" traits="">
+                      <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" accessible="false" x="0" y="40" width="402" height="800" index="0" traits="">
+                        <XCUIElementTypeTable type="XCUIElementTypeTable" enabled="true" visible="true" accessible="false" x="0" y="40" width="402" height="800" index="0" traits="">
+                          <XCUIElementTypeCell type="XCUIElementTypeCell" enabled="true" visible="false" accessible="true" x="0" y="154" width="402" height="0" index="0" traits="">
+                            <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="Label" name="Label" label="Label" enabled="true" visible="false" accessible="true" x="15" y="174" width="154" height="0" index="0" traits="StaticText"/>
+                            <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="Label" name="Label" label="Label" enabled="true" visible="false" accessible="true" x="15" y="174" width="154" height="0" index="1" traits="StaticText"/>
+                            <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" accessible="false" x="402" y="153" width="8" height="2" index="2" traits=""/>
+                            <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" accessible="false" x="0" y="154" width="402" height="0" index="3" traits="">
+                              <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" accessible="false" x="0" y="154" width="402" height="0" index="0" traits=""/>
+                            </XCUIElementTypeOther>
+                            <XCUIElementTypeButton type="XCUIElementTypeButton" name="Button" label="Button" enabled="true" visible="false" accessible="true" x="15" y="134" width="75" height="35" index="4" traits="Button">
+                              <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="Button" name="Button" label="Button" enabled="true" visible="false" accessible="false" x="27" y="138" width="51" height="27" index="0" traits="StaticText"/>
+                            </XCUIElementTypeButton>
+                            <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" accessible="false" x="8" y="436" width="377" height="1" index="5" traits=""/>
+                          </XCUIElementTypeCell>
+                          <XCUIElementTypeCell type="XCUIElementTypeCell" enabled="true" visible="true" accessible="true" x="0" y="154" width="402" height="152" index="1" traits="">
+                            <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="Holi Sale Ends Soon: Flat 50% OFF" name="Holi Sale Ends Soon: Flat 50% OFF" label="Holi Sale Ends Soon: Flat 50% OFF" enabled="true" visible="true" accessible="true" x="24" y="213" width="354" height="29" index="0" traits="StaticText"/>
+                            <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" accessible="false" x="8" y="329" width="459" height="1" index="1" traits=""/>
+                            <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" accessible="false" x="16" y="305" width="370" height="1" index="2" traits=""/>
+                            <XCUIElementTypeButton type="XCUIElementTypeButton" name="SUBSCRIBE NOW" label="SUBSCRIBE NOW" enabled="true" visible="true" accessible="true" x="24" y="258" width="354" height="32" index="3" traits="Button">
+                              <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="SUBSCRIBE NOW" name="SUBSCRIBE NOW" label="SUBSCRIBE NOW" enabled="true" visible="true" accessible="false" x="139" y="263" width="124" height="21" index="0" traits="StaticText"/>
+                            </XCUIElementTypeButton>
+                          </XCUIElementTypeCell>
+                          <XCUIElementTypeCell type="XCUIElementTypeCell" enabled="true" visible="true" accessible="true" x="0" y="306" width="402" height="113" index="2" traits="">
+                            <XCUIElementTypeButton type="XCUIElementTypeButton" name="Opinion" label="Opinion" enabled="true" visible="true" accessible="true" x="135" y="346" width="75" height="30" index="0" traits="Button">
+                              <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="Opinion" name="Opinion" label="Opinion" enabled="true" visible="true" accessible="false" x="147" y="351" width="52" height="20" index="0" traits="StaticText"/>
+                            </XCUIElementTypeButton>
+                            <XCUIElementTypeButton type="XCUIElementTypeButton" name="Explainer" label="Explainer" enabled="true" visible="true" accessible="true" x="213" y="346" width="83" height="30" index="1" traits="Button">
+                              <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="Explainer" name="Explainer" label="Explainer" enabled="true" visible="true" accessible="false" x="225" y="351" width="59" height="20" index="0" traits="StaticText"/>
+                            </XCUIElementTypeButton>
+                            <XCUIElementTypeButton type="XCUIElementTypeButton" name="Interview" label="Interview" enabled="true" visible="true" accessible="true" x="299" y="346" width="82" height="30" index="2" traits="Button">
+                              <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="Interview" name="Interview" label="Interview" enabled="true" visible="true" accessible="false" x="311" y="351" width="59" height="20" index="0" traits="StaticText"/>
+                            </XCUIElementTypeButton>
+                            <XCUIElementTypeButton type="XCUIElementTypeButton" name="Data Dive" label="Data Dive" enabled="true" visible="true" accessible="true" x="16" y="380" width="86" height="30" index="3" traits="Button">
+                              <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="Data Dive" name="Data Dive" label="Data Dive" enabled="true" visible="true" accessible="false" x="27" y="385" width="63" height="20" index="0" traits="StaticText"/>
+                            </XCUIElementTypeButton>
+                            <XCUIElementTypeButton type="XCUIElementTypeButton" name="Analysis" label="Analysis" enabled="true" visible="true" accessible="true" x="105" y="380" width="77" height="30" index="4" traits="Button">
+                              <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="Analysis" name="Analysis" label="Analysis" enabled="true" visible="true" accessible="false" x="117" y="385" width="54" height="20" index="0" traits="StaticText"/>
+                            </XCUIElementTypeButton>
+                            <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="TRENDING TOPICS" name="TRENDING TOPICS" label="TRENDING TOPICS" enabled="true" visible="true" accessible="true" x="16" y="314" width="370" height="16" index="5" traits="StaticText"/>
+                            <XCUIElementTypeButton type="XCUIElementTypeButton" name="City Dialogues" label="City Dialogues" enabled="true" visible="true" accessible="true" x="16" y="346" width="116" height="30" index="6" traits="Button">
+                              <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="City Dialogues" name="City Dialogues" label="City Dialogues" enabled="true" visible="true" accessible="false" x="28" y="351" width="92" height="20" index="0" traits="StaticText"/>
+                            </XCUIElementTypeButton>
+                            <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" accessible="false" x="402" y="418" width="16" height="1" index="7" traits=""/>
+                          </XCUIElementTypeCell>
+                          <XCUIElementTypeCell type="XCUIElementTypeCell" enabled="true" visible="true" accessible="true" x="0" y="418" width="402" height="201" index="3" traits="">
+                            <XCUIElementTypeButton type="XCUIElementTypeButton" name="International" label="International" enabled="true" visible="true" accessible="true" x="16" y="428" width="82" height="36" index="0" traits="StaticText, Button"/>
+                            <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="Trump’s Iran war is dividing his own supporters" name="Trump’s Iran war is dividing his own supporters" label="Trump’s Iran war is dividing his own supporters" enabled="true" visible="true" accessible="true" x="16" y="475" width="155" height="71" index="1" traits="StaticText"/>
+                            <XCUIElementTypeLink type="XCUIElementTypeLink" name="Dan Cassino" label="Dan Cassino" enabled="true" visible="true" accessible="true" x="16" y="584" width="370" height="19" index="2" traits="Link">
+                              <XCUIElementTypeLink type="XCUIElementTypeLink" name="Dan Cassino" label="Dan Cassino" enabled="true" visible="true" accessible="false" x="16" y="583" width="79" height="20" index="0" traits="Link"/>
+                            </XCUIElementTypeLink>
+                            <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" accessible="false" x="8" y="561" width="377" height="2" index="3" traits=""/>
+                            <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" accessible="false" x="16" y="618" width="370" height="1" index="4" traits=""/>
+                          </XCUIElementTypeCell>
+                          <XCUIElementTypeCell type="XCUIElementTypeCell" enabled="true" visible="true" accessible="true" x="0" y="618" width="402" height="201" index="4" traits="">
+                            <XCUIElementTypeButton type="XCUIElementTypeButton" name="International" label="International" enabled="true" visible="true" accessible="true" x="16" y="628" width="82" height="36" index="0" traits="StaticText, Button"/>
+                            <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="Nepal’s revolution has won. Now it has to govern" name="Nepal’s revolution has won. Now it has to govern" label="Nepal’s revolution has won. Now it has to govern" enabled="true" visible="true" accessible="true" x="16" y="675" width="208" height="48" index="1" traits="StaticText"/>
+                            <XCUIElementTypeLink type="XCUIElementTypeLink" name="Nishchal N Pandey" label="Nishchal N Pandey" enabled="true" visible="true" accessible="true" x="16" y="783" width="370" height="20" index="2" traits="Link">
+                              <XCUIElementTypeLink type="XCUIElementTypeLink" name="Nishchal N Pandey" label="Nishchal N Pandey" enabled="true" visible="true" accessible="false" x="16" y="782" width="117" height="21" index="0" traits="Link"/>
+                            </XCUIElementTypeLink>
+                            <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" accessible="false" x="8" y="761" width="377" height="2" index="3" traits=""/>
+                            <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" accessible="false" x="16" y="817" width="370" height="2" index="4" traits=""/>
+                          </XCUIElementTypeCell>
+                          <XCUIElementTypeCell type="XCUIElementTypeCell" enabled="true" visible="true" accessible="true" x="0" y="818" width="402" height="201" index="5" traits="">
+                            <XCUIElementTypeButton type="XCUIElementTypeButton" name="Law" label="Law" enabled="true" visible="true" accessible="true" x="16" y="828" width="26" height="36" index="0" traits="StaticText, Button"/>
+                            <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="Free for TOI+ subscribers. Need a lawyer? Write to us" name="Free for TOI+ subscribers. Need a lawyer? Write to us" label="Free for TOI+ subscribers. Need a lawyer? Write to us" enabled="true" visible="false" accessible="true" x="16" y="875" width="212" height="71" index="1" traits="StaticText"/>
+                            <XCUIElementTypeLink type="XCUIElementTypeLink" name="Team TOI Plus" label="Team TOI Plus" enabled="true" visible="false" accessible="true" x="16" y="983" width="370" height="20" index="2" traits="Link">
+                              <XCUIElementTypeLink type="XCUIElementTypeLink" name="Team TOI Plus" label="Team TOI Plus" enabled="true" visible="false" accessible="false" x="16" y="982" width="90" height="21" index="0" traits="Link"/>
+                            </XCUIElementTypeLink>
+                            <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" accessible="false" x="8" y="961" width="377" height="2" index="3" traits=""/>
+                            <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" accessible="false" x="16" y="1017" width="370" height="2" index="4" traits=""/>
+                          </XCUIElementTypeCell>
+                          <XCUIElementTypeCell type="XCUIElementTypeCell" enabled="true" visible="false" accessible="true" x="0" y="1018" width="402" height="201" index="6" traits="">
+                            <XCUIElementTypeButton type="XCUIElementTypeButton" name="Health" label="Health" enabled="true" visible="false" accessible="true" x="16" y="1028" width="43" height="36" index="0" traits="StaticText, Button"/>
+                            <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="Hello, Doctor. India’s top doctors here to answer your questions" name="Hello, Doctor. India’s top doctors here to answer your questions" label="Hello, Doctor. India’s top doctors here to answer your questions" enabled="true" visible="false" accessible="true" x="16" y="1075" width="201" height="71" index="1" traits="StaticText"/>
+                            <XCUIElementTypeLink type="XCUIElementTypeLink" name="Team TOI Plus" label="Team TOI Plus" enabled="true" visible="false" accessible="true" x="16" y="1184" width="370" height="19" index="2" traits="Link">
+                              <XCUIElementTypeLink type="XCUIElementTypeLink" name="Team TOI Plus" label="Team TOI Plus" enabled="true" visible="false" accessible="false" x="16" y="1183" width="90" height="20" index="0" traits="Link"/>
+                            </XCUIElementTypeLink>
+                            <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" accessible="false" x="8" y="1161" width="377" height="2" index="3" traits=""/>
+                            <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" accessible="false" x="16" y="1218" width="370" height="1" index="4" traits=""/>
+                          </XCUIElementTypeCell>
+                          <XCUIElementTypeCell type="XCUIElementTypeCell" enabled="true" visible="false" accessible="true" x="0" y="1218" width="402" height="182" index="7" traits="">
+                            <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="Read Today's ePaper" name="Read Today's ePaper" label="Read Today's ePaper" enabled="true" visible="false" accessible="true" x="0" y="154" width="142" height="21" index="0" traits="StaticText"/>
+                            <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" accessible="false" x="0" y="154" width="459" height="1" index="1" traits=""/>
+                            <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" accessible="false" x="0" y="154" width="370" height="1" index="2" traits=""/>
+                            <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="Access your daily newspaper anytime, anywhere" name="Access your daily newspaper anytime, anywhere" label="Access your daily newspaper anytime, anywhere" enabled="true" visible="false" accessible="true" x="0" y="154" width="354" height="58" index="3" traits="StaticText"/>
+                          </XCUIElementTypeCell>
+                          <XCUIElementTypeCell type="XCUIElementTypeCell" enabled="true" visible="false" accessible="true" x="0" y="1399" width="402" height="200" index="8" traits="">
+                            <XCUIElementTypeButton type="XCUIElementTypeButton" name="International" label="International" enabled="true" visible="false" accessible="true" x="0" y="154" width="82" height="35" index="0" traits="StaticText, Button"/>
+                            <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="The 75-year pivot: Why Modi finally buried India’s Israel taboo" name="The 75-year pivot: Why Modi finally buried India’s Israel taboo" label="The 75-year pivot: Why Modi finally buried India’s Israel taboo" enabled="true" visible="false" accessible="true" x="0" y="154" width="210" height="71" index="1" traits="StaticText"/>
+                            <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" accessible="false" x="0" y="154" width="377" height="1" index="2" traits=""/>
+                            <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" accessible="false" x="0" y="154" width="370" height="1" index="3" traits=""/>
+                            <XCUIElementTypeLink type="XCUIElementTypeLink" name="Swapan Dasgupta" label="Swapan Dasgupta" enabled="true" visible="false" accessible="true" x="0" y="154" width="370" height="19" index="4" traits="Link">
+                              <XCUIElementTypeLink type="XCUIElementTypeLink" name="Swapan Dasgupta" label="Swapan Dasgupta" enabled="true" visible="false" accessible="false" x="0" y="0" width="0" height="0" index="0" traits="Link"/>
+                            </XCUIElementTypeLink>
+                          </XCUIElementTypeCell>
+                          <XCUIElementTypeCell type="XCUIElementTypeCell" enabled="true" visible="false" accessible="true" x="0" y="1599" width="402" height="200" index="9" traits="">
+                            <XCUIElementTypeButton type="XCUIElementTypeButton" name="International" label="International" enabled="true" visible="false" accessible="true" x="0" y="154" width="82" height="35" index="0" traits="StaticText, Button"/>
+                            <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="Pakistan faces a big test. Will it join Saudi's war against Iran now?" name="Pakistan faces a big test. Will it join Saudi's war against Iran now?" label="Pakistan faces a big test. Will it join Saudi's war against Iran now?" enabled="true" visible="false" accessible="true" x="0" y="154" width="205" height="71" index="1" traits="StaticText"/>
+                            <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" accessible="false" x="0" y="154" width="377" height="1" index="2" traits=""/>
+                            <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" accessible="false" x="0" y="154" width="370" height="1" index="3" traits=""/>
+                            <XCUIElementTypeTextView type="XCUIElementTypeTextView" value="Jayanta Kalita  |  TIMESOFINDIA.COM" enabled="true" visible="false" accessible="true" x="0" y="154" width="370" height="19" index="4" traits="StaticText">
+                              <XCUIElementTypeLink type="XCUIElementTypeLink" name="Jayanta Kalita" label="Jayanta Kalita" enabled="true" visible="false" accessible="false" x="0" y="0" width="0" height="0" index="0" traits="Link"/>
+                            </XCUIElementTypeTextView>
+                          </XCUIElementTypeCell>
+                          <XCUIElementTypeCell type="XCUIElementTypeCell" enabled="true" visible="false" accessible="true" x="0" y="1799" width="402" height="210" index="10" traits="">
+                            <XCUIElementTypeButton type="XCUIElementTypeButton" name="International" label="International" enabled="true" visible="false" accessible="true" x="0" y="154" width="82" height="35" index="0" traits="StaticText, Button"/>
+                            <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="As the bombing intensifies, the debate about Iran is missing the real point" name="As the bombing intensifies, the debate about Iran is missing the real point" label="As the bombing intensifies, the debate about Iran is missing the real point" enabled="true" visible="false" accessible="true" x="0" y="154" width="203" height="94" index="1" traits="StaticText"/>
+                            <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" accessible="false" x="0" y="154" width="377" height="1" index="2" traits=""/>
+                            <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" accessible="false" x="0" y="154" width="370" height="1" index="3" traits=""/>
+                            <XCUIElementTypeTextView type="XCUIElementTypeTextView" value="Hasan Suroor  |  TIMESOFINDIA.COM" enabled="true" visible="false" accessible="true" x="0" y="154" width="370" height="19" index="4" traits="StaticText">
+                              <XCUIElementTypeLink type="XCUIElementTypeLink" name="Hasan Suroor" label="Hasan Suroor" enabled="true" visible="false" accessible="false" x="0" y="0" width="0" height="0" index="0" traits="Link"/>
+                            </XCUIElementTypeTextView>
+                          </XCUIElementTypeCell>
+                          <XCUIElementTypeCell type="XCUIElementTypeCell" enabled="true" visible="false" accessible="true" x="0" y="2008" width="402" height="201" index="11" traits="">
+                            <XCUIElementTypeButton type="XCUIElementTypeButton" name="International" label="International" enabled="true" visible="false" accessible="true" x="0" y="154" width="82" height="35" index="0" traits="StaticText, Button"/>
+                            <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="God, Lefties, Tucker &amp; Trump" name="God, Lefties, Tucker &amp; Trump" label="God, Lefties, Tucker &amp; Trump" enabled="true" visible="false" accessible="true" x="0" y="154" width="181" height="47" index="1" traits="StaticText"/>
+                            <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" accessible="false" x="0" y="154" width="377" height="1" index="2" traits=""/>
+                            <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" accessible="false" x="0" y="154" width="370" height="1" index="3" traits=""/>
+                            <XCUIElementTypeLink type="XCUIElementTypeLink" name="Dan Cassino" label="Dan Cassino" enabled="true" visible="false" accessible="true" x="0" y="154" width="370" height="19" index="4" traits="Link">
+                              <XCUIElementTypeLink type="XCUIElementTypeLink" name="Dan Cassino" label="Dan Cassino" enabled="true" visible="false" accessible="false" x="0" y="0" width="0" height="0" index="0" traits="Link"/>
+                            </XCUIElementTypeLink>
+                          </XCUIElementTypeCell>
+                          <XCUIElementTypeCell type="XCUIElementTypeCell" enabled="true" visible="false" accessible="true" x="0" y="2208" width="402" height="201" index="12" traits="">
+                            <XCUIElementTypeButton type="XCUIElementTypeButton" name="International" label="International" enabled="true" visible="false" accessible="true" x="0" y="154" width="82" height="35" index="0" traits="StaticText, Button"/>
+                            <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="Hashtags To House Seats? Easy. Changing Nepal? Tough" name="Hashtags To House Seats? Easy. Changing Nepal? Tough" label="Hashtags To House Seats? Easy. Changing Nepal? Tough" enabled="true" visible="false" accessible="true" x="0" y="154" width="185" height="71" index="1" traits="StaticText"/>
+                            <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" accessible="false" x="0" y="154" width="377" height="1" index="2" traits=""/>
+                            <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" accessible="false" x="0" y="154" width="370" height="1" index="3" traits=""/>
+                            <XCUIElementTypeLink type="XCUIElementTypeLink" name="Nishchal N Pandey" label="Nishchal N Pandey" enabled="true" visible="false" accessible="true" x="0" y="154" width="370" height="19" index="4" traits="Link">
+                              <XCUIElementTypeLink type="XCUIElementTypeLink" name="Nishchal N Pandey" label="Nishchal N Pandey" enabled="true" visible="false" accessible="false" x="0" y="0" width="0" height="0" index="0" traits="Link"/>
+                            </XCUIElementTypeLink>
+                          </XCUIElementTypeCell>
+                          <XCUIElementTypeCell type="XCUIElementTypeCell" enabled="true" visible="false" accessible="false" x="0" y="2408" width="402" height="527" index="13" traits="">
+                            <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" accessible="false" x="0" y="154" width="370" height="1" index="0" traits=""/>
+                            <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="MOST COMMENTED" name="MOST COMMENTED" label="MOST COMMENTED" enabled="true" visible="false" accessible="true" x="0" y="154" width="370" height="27" index="1" traits="StaticText"/>
+                            <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" accessible="false" x="0" y="154" width="50" height="1" index="2" traits=""/>
+                            <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" accessible="true" x="0" y="154" width="402" height="475" index="3" traits="AllowsDirectInteraction"/>
+                          </XCUIElementTypeCell>
+                          <XCUIElementTypeCell type="XCUIElementTypeCell" enabled="true" visible="false" accessible="true" x="0" y="2934" width="402" height="211" index="14" traits="">
+                            <XCUIElementTypeButton type="XCUIElementTypeButton" name="Health" label="Health" enabled="true" visible="false" accessible="true" x="0" y="154" width="43" height="35" index="0" traits="StaticText, Button"/>
+                            <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="Should a healthy person take magnesium to sleep better? Top doctors answers this, and more" name="Should a healthy person take magnesium to sleep better? Top doctors answers this, and more" label="Should a healthy person take magnesium to sleep better? Top doctors answers this, and more" enabled="true" visible="false" accessible="true" x="0" y="154" width="209" height="94" index="1" traits="StaticText"/>
+                            <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" accessible="false" x="0" y="154" width="377" height="1" index="2" traits=""/>
+                            <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" accessible="false" x="0" y="154" width="370" height="1" index="3" traits=""/>
+                            <XCUIElementTypeTextView type="XCUIElementTypeTextView" value="Lata Mishra  |  TIMESOFINDIA.COM" enabled="true" visible="false" accessible="true" x="0" y="154" width="370" height="19" index="4" traits="StaticText">
+                              <XCUIElementTypeLink type="XCUIElementTypeLink" name="Lata Mishra" label="Lata Mishra" enabled="true" visible="false" accessible="false" x="0" y="0" width="0" height="0" index="0" traits="Link"/>
+                            </XCUIElementTypeTextView>
+                          </XCUIElementTypeCell>
+                          <XCUIElementTypeCell type="XCUIElementTypeCell" enabled="true" visible="false" accessible="true" x="0" y="3144" width="402" height="201" index="15" traits="">
+                            <XCUIElementTypeButton type="XCUIElementTypeButton" name="International" label="International" enabled="true" visible="false" accessible="true" x="0" y="154" width="82" height="35" index="0" traits="StaticText, Button"/>
+                            <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="How Russia may have been providing Iran with intel to target US military" name="How Russia may have been providing Iran with intel to target US military" label="How Russia may have been providing Iran with intel to target US military" enabled="true" visible="false" accessible="true" x="0" y="154" width="202" height="71" index="1" traits="StaticText"/>
+                            <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" accessible="false" x="0" y="154" width="377" height="1" index="2" traits=""/>
+                            <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" accessible="false" x="0" y="154" width="370" height="1" index="3" traits=""/>
+                            <XCUIElementTypeTextView type="XCUIElementTypeTextView" value="Julian E Barnes  |  Eric Schmitt  |  New York Times" enabled="true" visible="false" accessible="true" x="0" y="154" width="370" height="19" index="4" traits="StaticText">
+                              <XCUIElementTypeLink type="XCUIElementTypeLink" name="Julian E Barnes" label="Julian E Barnes" enabled="true" visible="false" accessible="false" x="0" y="0" width="0" height="0" index="0" traits="Link"/>
+                              <XCUIElementTypeLink type="XCUIElementTypeLink" name="Eric Schmitt" label="Eric Schmitt" enabled="true" visible="false" accessible="false" x="0" y="0" width="0" height="0" index="1" traits="Link"/>
+                            </XCUIElementTypeTextView>
+                          </XCUIElementTypeCell>
+                          <XCUIElementTypeCell type="XCUIElementTypeCell" enabled="true" visible="false" accessible="false" x="0" y="3344" width="402" height="526" index="16" traits="">
+                            <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" accessible="false" x="0" y="154" width="370" height="1" index="0" traits=""/>
+                            <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="MOST READ" name="MOST READ" label="MOST READ" enabled="true" visible="false" accessible="true" x="0" y="154" width="370" height="27" index="1" traits="StaticText"/>
+                            <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" accessible="false" x="0" y="154" width="50" height="1" index="2" traits=""/>
+                            <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" accessible="true" x="0" y="154" width="402" height="475" index="3" traits="AllowsDirectInteraction"/>
+                          </XCUIElementTypeCell>
+                          <XCUIElementTypeCell type="XCUIElementTypeCell" enabled="true" visible="false" accessible="true" x="0" y="3869" width="402" height="201" index="17" traits="">
+                            <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="The latest dating fad for men: finding their 'sexual market value'" name="The latest dating fad for men: finding their 'sexual market value'" label="The latest dating fad for men: finding their 'sexual market value'" enabled="true" visible="false" accessible="true" x="0" y="154" width="204" height="71" index="0" traits="StaticText"/>
+                            <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" accessible="false" x="0" y="154" width="377" height="1" index="1" traits=""/>
+                            <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" accessible="false" x="0" y="154" width="370" height="1" index="2" traits=""/>
+                            <XCUIElementTypeTextView type="XCUIElementTypeTextView" value="T.M. Brown  |  New York Times" enabled="true" visible="false" accessible="true" x="0" y="154" width="370" height="19" index="3" traits="StaticText">
+                              <XCUIElementTypeLink type="XCUIElementTypeLink" name="T.M. Brown" label="T.M. Brown" enabled="true" visible="false" accessible="false" x="0" y="0" width="0" height="0" index="0" traits="Link"/>
+                            </XCUIElementTypeTextView>
+                          </XCUIElementTypeCell>
+                          <XCUIElementTypeCell type="XCUIElementTypeCell" enabled="true" visible="false" accessible="true" x="0" y="4069" width="402" height="211" index="18" traits="">
+                            <XCUIElementTypeButton type="XCUIElementTypeButton" name="Society &amp; Culture" label="Society &amp; Culture" enabled="true" visible="false" accessible="true" x="0" y="154" width="114" height="35" index="0" traits="StaticText, Button"/>
+                            <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="Blackouts to flame games, how online dares are taking over school corridors" name="Blackouts to flame games, how online dares are taking over school corridors" label="Blackouts to flame games, how online dares are taking over school corridors" enabled="true" visible="false" accessible="true" x="0" y="154" width="205" height="94" index="1" traits="StaticText"/>
+                            <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" accessible="false" x="0" y="154" width="377" height="1" index="2" traits=""/>
+                            <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" accessible="false" x="0" y="154" width="370" height="1" index="3" traits=""/>
+                            <XCUIElementTypeTextView type="XCUIElementTypeTextView" value="Mohua Das  |  TNN" enabled="true" visible="false" accessible="true" x="0" y="154" width="370" height="19" index="4" traits="StaticText">
+                              <XCUIElementTypeLink type="XCUIElementTypeLink" name="Mohua Das" label="Mohua Das" enabled="true" visible="false" accessible="false" x="0" y="0" width="0" height="0" index="0" traits="Link"/>
+                            </XCUIElementTypeTextView>
+                          </XCUIElementTypeCell>
+                          <XCUIElementTypeCell type="XCUIElementTypeCell" enabled="true" visible="false" accessible="true" x="0" y="4279" width="402" height="201" index="19" traits="">
+                            <XCUIElementTypeButton type="XCUIElementTypeButton" name="TOI Plus" label="TOI Plus" enabled="true" visible="false" accessible="true" x="0" y="154" width="52" height="35" index="0" traits="StaticText, Button"/>
+                            <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="Women break the ice ceiling in Antarctica’s frozen bastion" name="Women break the ice ceiling in Antarctica’s frozen bastion" label="Women break the ice ceiling in Antarctica’s frozen bastion" enabled="true" visible="false" accessible="true" x="0" y="154" width="178" height="71" index="1" traits="StaticText"/>
+                            <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" accessible="false" x="0" y="154" width="377" height="1" index="2" traits=""/>
+                            <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" accessible="false" x="0" y="154" width="370" height="1" index="3" traits=""/>
+                            <XCUIElementTypeTextView type="XCUIElementTypeTextView" value="Sneha Bhura  |  TNN" enabled="true" visible="false" accessible="true" x="0" y="154" width="370" height="19" index="4" traits="StaticText">
+                              <XCUIElementTypeLink type="XCUIElementTypeLink" name="Sneha Bhura" label="Sneha Bhura" enabled="true" visible="false" accessible="false" x="0" y="0" width="0" height="0" index="0" traits="Link"/>
+                            </XCUIElementTypeTextView>
+                          </XCUIElementTypeCell>
+                          <XCUIElementTypeCell type="XCUIElementTypeCell" enabled="true" visible="false" accessible="true" x="0" y="4479" width="402" height="234" index="20" traits="">
+                            <XCUIElementTypeButton type="XCUIElementTypeButton" name="Law" label="Law" enabled="true" visible="false" accessible="true" x="0" y="154" width="26" height="35" index="0" traits="StaticText, Button"/>
+                            <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="What are the tax implications for PIOs selling inherited property in India? Top lawyers answer" name="What are the tax implications for PIOs selling inherited property in India? Top lawyers answer" label="What are the tax implications for PIOs selling inherited property in India? Top lawyers answer" enabled="true" visible="false" accessible="true" x="0" y="154" width="208" height="118" index="1" traits="StaticText"/>
+                            <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" accessible="false" x="0" y="154" width="377" height="1" index="2" traits=""/>
+                            <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" accessible="false" x="0" y="154" width="370" height="1" index="3" traits=""/>
+                            <XCUIElementTypeTextView type="XCUIElementTypeTextView" value="Sunil Baghel  |  TIMESOFINDIA.COM" enabled="true" visible="false" accessible="true" x="0" y="154" width="370" height="19" index="4" traits="StaticText">
+                              <XCUIElementTypeLink type="XCUIElementTypeLink" name="Sunil Baghel" label="Sunil Baghel" enabled="true" visible="false" accessible="false" x="0" y="0" width="0" height="0" index="0" traits="Link"/>
+                            </XCUIElementTypeTextView>
+                          </XCUIElementTypeCell>
+                          <XCUIElementTypeCell type="XCUIElementTypeCell" enabled="true" visible="false" accessible="true" x="0" y="4712" width="402" height="201" index="21" traits="">
+                            <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="Why ensuring Britney Spears gets care she needs is such a dilemma" name="Why ensuring Britney Spears gets care she needs is such a dilemma" label="Why ensuring Britney Spears gets care she needs is such a dilemma" enabled="true" visible="false" accessible="true" x="0" y="154" width="201" height="71" index="0" traits="StaticText"/>
+                            <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" accessible="false" x="0" y="154" width="377" height="1" index="1" traits=""/>
+                            <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" accessible="false" x="0" y="154" width="370" height="1" index="2" traits=""/>
+                            <XCUIElementTypeTextView type="XCUIElementTypeTextView" value="Julia Jacobs  |  New York Times" enabled="true" visible="false" accessible="true" x="0" y="154" width="370" height="19" index="3" traits="StaticText">
+                              <XCUIElementTypeLink type="XCUIElementTypeLink" name="Julia Jacobs" label="Julia Jacobs" enabled="true" visible="false" accessible="false" x="0" y="0" width="0" height="0" index="0" traits="Link"/>
+                            </XCUIElementTypeTextView>
+                          </XCUIElementTypeCell>
+                          <XCUIElementTypeCell type="XCUIElementTypeCell" enabled="true" visible="false" accessible="false" x="0" y="4912" width="402" height="527" index="22" traits="">
+                            <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" accessible="false" x="0" y="154" width="370" height="1" index="0" traits=""/>
+                            <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="MOST SHARED" name="MOST SHARED" label="MOST SHARED" enabled="true" visible="false" accessible="true" x="0" y="154" width="370" height="27" index="1" traits="StaticText"/>
+                            <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" accessible="false" x="0" y="154" width="50" height="1" index="2" traits=""/>
+                            <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" accessible="true" x="0" y="154" width="402" height="475" index="3" traits="AllowsDirectInteraction"/>
+                          </XCUIElementTypeCell>
+                          <XCUIElementTypeCell type="XCUIElementTypeCell" enabled="true" visible="false" accessible="true" x="0" y="5438" width="402" height="201" index="23" traits="">
+                            <XCUIElementTypeButton type="XCUIElementTypeButton" name="Business &amp; Economy" label="Business &amp; Economy" enabled="true" visible="false" accessible="true" x="0" y="154" width="135" height="35" index="0" traits="StaticText, Button"/>
+                            <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="Bengaluru is stuck in a new jam. Can it beat back the AI monster?" name="Bengaluru is stuck in a new jam. Can it beat back the AI monster?" label="Bengaluru is stuck in a new jam. Can it beat back the AI monster?" enabled="true" visible="false" accessible="true" x="0" y="154" width="212" height="71" index="1" traits="StaticText"/>
+                            <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" accessible="false" x="0" y="154" width="377" height="1" index="2" traits=""/>
+                            <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" accessible="false" x="0" y="154" width="370" height="1" index="3" traits=""/>
+                            <XCUIElementTypeLink type="XCUIElementTypeLink" name="Chetan Bhagat" label="Chetan Bhagat" enabled="true" visible="false" accessible="true" x="0" y="154" width="370" height="19" index="4" traits="Link">
+                              <XCUIElementTypeLink type="XCUIElementTypeLink" name="Chetan Bhagat" label="Chetan Bhagat" enabled="true" visible="false" accessible="false" x="0" y="0" width="0" height="0" index="0" traits="Link"/>
+                            </XCUIElementTypeLink>
+                          </XCUIElementTypeCell>
+                          <XCUIElementTypeCell type="XCUIElementTypeCell" enabled="true" visible="false" accessible="true" x="0" y="5638" width="402" height="201" index="24" traits="">
+                            <XCUIElementTypeButton type="XCUIElementTypeButton" name="International" label="International" enabled="true" visible="false" accessible="true" x="0" y="154" width="82" height="35" index="0" traits="StaticText, Button"/>
+                            <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="The Bibi bridge: India’s Israel shift marks end to 75-year hesitation" name="The Bibi bridge: India’s Israel shift marks end to 75-year hesitation" label="The Bibi bridge: India’s Israel shift marks end to 75-year hesitation" enabled="true" visible="false" accessible="true" x="0" y="154" width="199" height="71" index="1" traits="StaticText"/>
+                            <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" accessible="false" x="0" y="154" width="377" height="1" index="2" traits=""/>
+                            <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" accessible="false" x="0" y="154" width="370" height="1" index="3" traits=""/>
+                            <XCUIElementTypeLink type="XCUIElementTypeLink" name="Swapan Dasgupta" label="Swapan Dasgupta" enabled="true" visible="false" accessible="true" x="0" y="154" width="370" height="19" index="4" traits="Link">
+                              <XCUIElementTypeLink type="XCUIElementTypeLink" name="Swapan Dasgupta" label="Swapan Dasgupta" enabled="true" visible="false" accessible="false" x="0" y="0" width="0" height="0" index="0" traits="Link"/>
+                            </XCUIElementTypeLink>
+                          </XCUIElementTypeCell>
+                          <XCUIElementTypeCell type="XCUIElementTypeCell" enabled="true" visible="false" accessible="true" x="0" y="5838" width="402" height="201" index="25" traits="">
+                            <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="How a Pakistani man plotted with Iran to kill Donald Trump" name="How a Pakistani man plotted with Iran to kill Donald Trump" label="How a Pakistani man plotted with Iran to kill Donald Trump" enabled="true" visible="false" accessible="true" x="0" y="154" width="185" height="71" index="0" traits="StaticText"/>
+                            <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" accessible="false" x="0" y="154" width="377" height="1" index="1" traits=""/>
+                            <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" accessible="false" x="0" y="154" width="370" height="1" index="2" traits=""/>
+                            <XCUIElementTypeTextView type="XCUIElementTypeTextView" value="Santul Nerkar  |  New York Times" enabled="true" visible="false" accessible="true" x="0" y="154" width="370" height="19" index="3" traits="StaticText">
+                              <XCUIElementTypeLink type="XCUIElementTypeLink" name="Santul Nerkar" label="Santul Nerkar" enabled="true" visible="false" accessible="false" x="0" y="0" width="0" height="0" index="0" traits="Link"/>
+                            </XCUIElementTypeTextView>
+                          </XCUIElementTypeCell>
+                          <XCUIElementTypeCell type="XCUIElementTypeCell" enabled="true" visible="false" accessible="true" x="0" y="6038" width="402" height="170" index="26" traits="">
+                            <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="Oil to travel to markets: How the attack on Iran has hit India and Indians" name="Oil to travel to markets: How the attack on Iran has hit India and Indians" label="Oil to travel to markets: How the attack on Iran has hit India and Indians" enabled="true" visible="false" accessible="true" x="0" y="154" width="198" height="71" index="0" traits="StaticText"/>
+                            <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" accessible="false" x="0" y="154" width="377" height="1" index="1" traits=""/>
+                            <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" accessible="false" x="0" y="154" width="370" height="1" index="2" traits=""/>
+                            <XCUIElementTypeButton type="XCUIElementTypeButton" name="Business &amp; Economy" label="Business &amp; Economy" enabled="true" visible="false" accessible="true" x="0" y="154" width="135" height="35" index="3" traits="StaticText, Button"/>
+                          </XCUIElementTypeCell>
+                          <XCUIElementTypeCell type="XCUIElementTypeCell" enabled="true" visible="false" accessible="true" x="0" y="6207" width="402" height="201" index="27" traits="">
+                            <XCUIElementTypeButton type="XCUIElementTypeButton" name="India" label="India" enabled="true" visible="false" accessible="true" x="0" y="154" width="32" height="35" index="0" traits="StaticText, Button"/>
+                            <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="The quiet power of idioms" name="The quiet power of idioms" label="The quiet power of idioms" enabled="true" visible="false" accessible="true" x="0" y="154" width="212" height="24" index="1" traits="StaticText"/>
+                            <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" accessible="false" x="0" y="154" width="377" height="1" index="2" traits=""/>
+                            <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" accessible="false" x="0" y="154" width="370" height="1" index="3" traits=""/>
+                            <XCUIElementTypeTextView type="XCUIElementTypeTextView" value="Times News Network  |  TNN" enabled="true" visible="false" accessible="true" x="0" y="154" width="370" height="19" index="4" traits="StaticText">
+                              <XCUIElementTypeLink type="XCUIElementTypeLink" name="Times News Network" label="Times News Network" enabled="true" visible="false" accessible="false" x="0" y="0" width="0" height="0" index="0" traits="Link"/>
+                            </XCUIElementTypeTextView>
+                          </XCUIElementTypeCell>
+                          <XCUIElementTypeOther type="XCUIElementTypeOther" value="0%" name="Horizontal scroll bar, 1 page" label="Horizontal scroll bar, 1 page" enabled="true" visible="false" accessible="false" x="28" y="807" width="346" height="30" index="28" traits="Adjustable">
+                            <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" accessible="false" x="31" y="834" width="340" height="3" index="0" traits=""/>
+                          </XCUIElementTypeOther>
+                        </XCUIElementTypeTable>
+                      </XCUIElementTypeOther>
+                    </XCUIElementTypeOther>
+                  </XCUIElementTypeScrollView>
+                </XCUIElementTypeOther>
+              </XCUIElementTypeOther>
+            </XCUIElementTypeOther>
+          </XCUIElementTypeOther>
+        </XCUIElementTypeOther>
+      </XCUIElementTypeOther>
+    </XCUIElementTypeWindow>
+  </XCUIElementTypeApplication>
+</AppiumAUT>

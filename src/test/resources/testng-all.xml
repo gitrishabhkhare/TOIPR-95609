@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<!--
+  Full Suite — sanity + regression combined.
+  Run: mvn test -Pall  OR  mvn test -Dsuite=all
+-->
+<suite name="TOI iOS — Full Suite" verbose="1" parallel="none">
+
+    <listeners>
+        <listener class-name="com.toi.listeners.RetryListener"/>
+    </listeners>
+
+    <!-- Sanity first -->
+    <test name="Sanity — App Launch">
+        <groups>
+            <run>
+                <include name="sanity"/>
+                <include name="smoke"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.toi.tests.sanity.AppLaunchSanityTest"/>
+            <class name="com.toi.tests.sanity.LoginSanityTest"/>
+            <class name="com.toi.tests.sanity.SearchSanityTest"/>
+            <class name="com.toi.tests.sanity.ContentSanityTest"/>
+            <class name="com.toi.tests.sanity.TOIPlusSanityTest"/>
+            <class name="com.toi.tests.sanity.NavigationSanityTest"/>
+        </classes>
+    </test>
+
+    <!-- Then regression -->
+    <test name="Regression — Home Page">
+        <groups>
+            <run>
+                <include name="regression"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.toi.tests.regression.HomePageRegressionTest"/>
+        </classes>
+    </test>
+
+    <test name="Regression — Login">
+        <groups>
+            <run>
+                <include name="regression"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.toi.tests.regression.LoginRegressionTest"/>
+        </classes>
+    </test>
+
+    <test name="Regression — Search">
+        <groups>
+            <run>
+                <include name="regression"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.toi.tests.regression.SearchRegressionTest"/>
+        </classes>
+    </test>
+
+</suite>

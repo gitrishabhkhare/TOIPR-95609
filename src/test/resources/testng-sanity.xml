@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<!--
+  Sanity Suite — fast-pass checks to confirm the build is stable.
+  Run: mvn test -Psanity  OR  mvn test -Dsuite=sanity
+-->
+<suite name="TOI iOS — Sanity Suite" verbose="1" parallel="none">
+
+    <listeners>
+        <listener class-name="com.toi.listeners.RetryListener"/>
+    </listeners>
+
+    <test name="App Launch Sanity">
+        <groups>
+            <run>
+                <include name="sanity"/>
+                <include name="smoke"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.toi.tests.sanity.AppLaunchSanityTest"/>
+            <class name="com.toi.tests.sanity.LoginSanityTest"/>
+            <class name="com.toi.tests.sanity.SearchSanityTest"/>
+            <class name="com.toi.tests.sanity.ContentSanityTest"/>
+            <class name="com.toi.tests.sanity.TOIPlusSanityTest"/>
+            <class name="com.toi.tests.sanity.NavigationSanityTest"/>
+            <class name="com.toi.tests.sanity.EpaperSanityTest"/>
+        </classes>
+    </test>
+
+</suite>

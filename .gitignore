@@ -1,0 +1,23 @@
+# Maven
+target/
+*.class
+*.jar
+*.war
+
+# IDE
+.idea/
+*.iml
+.vscode/
+*.DS_Store
+
+# Logs & Reports
+logs/
+reports/
+screenshots/
+
+# Credentials / Config overrides
+src/test/resources/config.properties
+
+# Python cache
+__pycache__/
+*.pyc

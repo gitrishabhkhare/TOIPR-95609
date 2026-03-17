@@ -1,0 +1,19 @@
+{
+  "validUser": {
+    "email": "testuser@toi.com",
+    "password": "Test@1234"
+  },
+  "invalidUser": {
+    "email": "wrong@test.com",
+    "password": "wrongpassword"
+  },
+  "newUser": {
+    "name": "Automation User",
+    "email": "newuser_auto@toi.com",
+    "password": "NewUser@123"
+  },
+  "toiPlusUser": {
+    "email": "toitestforapple2026@gmail.com",
+    "password": "Ti@Tes233112#"
+  }
+}

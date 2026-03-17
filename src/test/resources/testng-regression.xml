@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<!--
+  Regression Suite — full coverage run.
+  Run: mvn test -Pregression  OR  mvn test -Dsuite=regression
+-->
+<suite name="TOI iOS — Regression Suite" verbose="1" parallel="none">
+
+    <listeners>
+        <listener class-name="com.toi.listeners.RetryListener"/>
+    </listeners>
+
+    <test name="Home Page Regression">
+        <groups>
+            <run>
+                <include name="regression"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.toi.tests.regression.HomePageRegressionTest"/>
+        </classes>
+    </test>
+
+    <test name="Login Regression">
+        <groups>
+            <run>
+                <include name="regression"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.toi.tests.regression.LoginRegressionTest"/>
+        </classes>
+    </test>
+
+    <test name="Search Regression">
+        <groups>
+            <run>
+                <include name="regression"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.toi.tests.regression.SearchRegressionTest"/>
+        </classes>
+    </test>
+
+</suite>

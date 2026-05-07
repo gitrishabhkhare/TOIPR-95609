@@ -21,3 +21,6 @@ src/test/resources/config.properties
 # Python cache
 __pycache__/
 *.pyc
+
+# Claude local settings
+.claude/

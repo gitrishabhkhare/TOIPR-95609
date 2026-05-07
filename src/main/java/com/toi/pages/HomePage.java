@@ -2,9 +2,11 @@ package com.toi.pages;
 
 import com.toi.base.BasePage;
 import org.openqa.selenium.By;
+import org.openqa.selenium.Dimension;
 import org.openqa.selenium.WebElement;
 
 import java.util.List;
+import java.util.Map;
 
 /**
  * HomePage — main news feed screen of the TOI app.
@@ -13,7 +15,8 @@ public class HomePage extends BasePage {
 
     // ── Navigation ────────────────────────────────────────────────────────────
     // Verified via Appium inspector (iOS 26.3, com.2ergoTOI.jayant)
-    private final By sideNavButton       = byAccessibilityId("sideNavIconDark");
+    private final By sideNavButton       = byPredicateString(
+            "type == 'XCUIElementTypeButton' AND (name == 'sideNavIconDark' OR name == 'sideNavIconLight')");
     private final By profileButton       = byAccessibilityId("homePageProfileIcon");
     private final By toiLogo             = byAccessibilityId("TOIlogoDark");
 
@@ -87,7 +90,18 @@ public class HomePage extends BasePage {
 
     public LoginPage tapProfile() {
         log.info("Opening login via side nav profile");
-        tap(sideNavButton);
+        // Try known accessibility IDs (Dark/Light variants); fallback to top-left coordinate tap
+        List<WebElement> navBtns = driver.findElements(sideNavButton);
+        if (!navBtns.isEmpty()) {
+            navBtns.get(0).click();
+        } else {
+            // Hamburger "≡ TOI" sits in the top-left corner of the nav bar
+            Dimension size = driver.manage().window().getSize();
+            int x = (int) (size.width * 0.07);   // ~7% from left edge
+            int y = (int) (size.height * 0.065); // ~6.5% from top (nav bar row)
+            log.info("sideNavButton not found by ID — coord tap at ({}, {})", x, y);
+            driver.executeScript("mobile: tap", Map.of("x", x, "y", y));
+        }
         // For a non-logged-in user the side nav shows a "Login unlocks the good stuff" banner
         By loginBanner = byPredicateString(
                 "type == 'XCUIElementTypeButton' AND label CONTAINS[cd] 'login unlocks the good stuff'");

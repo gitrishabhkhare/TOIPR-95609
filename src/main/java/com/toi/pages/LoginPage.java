@@ -2,6 +2,10 @@ package com.toi.pages;
 
 import com.toi.base.BasePage;
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+
+import java.util.List;
+import java.util.Map;
 
 /**
  * LoginPage — sign-in screen for TOI app (Times Login).
@@ -34,10 +38,9 @@ public class LoginPage extends BasePage {
     private final By emailField         = byPredicateString(
             "type == 'XCUIElementTypeTextField'");
 
-    // Arrow (→) button next to text field — no name/label; matched by class chain position
-    // Falls back to predicate for Continue/Next if arrow has no id
-    private final By continueArrowBtn   = byClassChain(
-            "**/XCUIElementTypeButton[`label == ''`][1]");
+    // Arrow (→) button next to text field — label may be '' or the '→' unicode char
+    private final By continueArrowBtn   = byPredicateString(
+            "type == 'XCUIElementTypeButton' AND (label == '' OR label == '→')");
     private final By continueButton     = byPredicateString(
             "type == 'XCUIElementTypeButton' AND (label == 'Continue' OR label == 'Next')");
 
@@ -99,10 +102,21 @@ public class LoginPage extends BasePage {
     }
 
     public LoginPage tapContinue() {
-        // On the email screen the → arrow button has no name/label; fall back to 'Continue'/'Next'
-        if (isDisplayed(continueArrowBtn)) {
-            tap(continueArrowBtn);
-        } else {
+        // Quick check with implicit wait (faster than isDisplayed which uses explicit 10s wait)
+        List<WebElement> arrowBtns = driver.findElements(continueArrowBtn);
+        if (!arrowBtns.isEmpty()) {
+            arrowBtns.get(0).click();
+            return this;
+        }
+        // Coordinate fallback: tap to the right of the email field where the → arrow sits
+        try {
+            WebElement field = driver.findElement(emailField);
+            int x = field.getLocation().getX() + field.getSize().getWidth() + 20;
+            int y = field.getLocation().getY() + field.getSize().getHeight() / 2;
+            log.info("LoginPage: arrow btn not found by label — coord tap at ({}, {})", x, y);
+            driver.executeScript("mobile: tap", Map.of("x", x, "y", y));
+        } catch (Exception e) {
+            log.warn("LoginPage: coord fallback failed — trying Continue/Next: {}", e.getMessage());
             tap(continueButton);
         }
         return this;

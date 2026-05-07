@@ -99,9 +99,12 @@ public class DriverManager {
 
         // Reuse already-running WDA instead of killing/rebuilding it each session — major speed gain
         options.setCapability("appium:useNewWDA", false);
+        // Skip WDA reinstall — WDA is already running, connect via tunnel
+        options.setCapability("appium:skipServerInstallation", true);
+        options.setCapability("appium:usePrebuiltWDA", true);
         // Give WDA extra time to launch on iOS 26.x before timing out
-        options.setCapability("appium:wdaLaunchTimeout", 60000);
-        options.setCapability("appium:wdaConnectionTimeout", 60000);
+        options.setCapability("appium:wdaLaunchTimeout", 120000);
+        options.setCapability("appium:wdaConnectionTimeout", 120000);
         return options;
     }
 }

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<!--
+  AC3b only — YMAL across 3 scheduleList sections (World / Sports / Entertainment)
+  Run: mvn test -Dsuite=ac3b
+-->
+<suite name="scheduleList — AC3b Only" verbose="1" parallel="none">
+
+    <listeners>
+        <listener class-name="com.toi.listeners.RetryListener"/>
+    </listeners>
+
+    <test name="AC3b — YMAL Across Sections">
+        <classes>
+            <class name="com.toi.tests.sanity.ScheduleListTest">
+                <methods>
+                    <include name="testYouMayAlsoLikeAcrossMultipleScheduleListSections"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+</suite>

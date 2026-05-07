@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<!--
+  scheduleList Acceptance Suite — TF ticket: eliminate old listing support
+  Run: mvn test -DsuiteXmlFile=src/test/resources/testng-schedulelist.xml
+-->
+<suite name="scheduleList Acceptance Tests" verbose="1" parallel="none">
+
+    <listeners>
+        <listener class-name="com.toi.listeners.RetryListener"/>
+    </listeners>
+
+    <test name="scheduleList AC Tests">
+        <classes>
+            <class name="com.toi.tests.sanity.ScheduleListTest">
+                <methods>
+                    <!-- AC1: scheduleList sections load and paginate -->
+                    <include name="testScheduleListSectionsLoadAndPaginate"/>
+                    <!-- AC2: All listings load properly -->
+                    <include name="testAllListingsLoadProperly"/>
+                    <!-- AC3: You may also like section -->
+                    <include name="testYouMayAlsoLikeSectionLoadsAndIsClickable"/>
+                    <!-- AC3b: You may also like across 3 sections -->
+                    <include name="testYouMayAlsoLikeAcrossMultipleScheduleListSections"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+</suite>

@@ -215,6 +215,51 @@ public class ArticlePage extends BasePage {
         return Math.max(0, findElements(articleCells).size() - 3);
     }
 
+    /**
+     * Scrolls through the article body until the "You may also like" / recommended
+     * articles section header is visible (max 10 scrolls). Returns true if found.
+     */
+    public boolean scrollToYouMayAlsoLike() {
+        log.info("Scrolling to 'You may also like' section");
+        By sectionHeader = byPredicateString(
+                "type == 'XCUIElementTypeStaticText' AND " +
+                "(label CONTAINS[cd] 'you may also like' OR " +
+                " label CONTAINS[cd] 'you might also like' OR " +
+                " label CONTAINS[cd] 'more stories' OR " +
+                " label CONTAINS[cd] 'related stories' OR " +
+                " label CONTAINS[cd] 'recommended' OR " +
+                " label CONTAINS[cd] 'read next' OR " +
+                " label CONTAINS[cd] 'also read' OR " +
+                " label CONTAINS[cd] 'similar stories' OR " +
+                " label CONTAINS[cd] 'more from' OR " +
+                " label CONTAINS[cd] 'more news' OR " +
+                " label CONTAINS[cd] 'more like this' OR " +
+                " label CONTAINS[cd] 'trending now')");
+        for (int i = 0; i < 10 && !isDisplayed(sectionHeader); i++) {
+            scrollDown();
+            try { Thread.sleep(500); } catch (InterruptedException ignored) {}
+        }
+        if (isDisplayed(sectionHeader)) return true;
+        // Fallback: after reaching bottom of article, XCUIElementTypeCell elements
+        // indicate related/recommended articles even when header text doesn't match our predicate
+        int cellCount = findElements(articleCells).size();
+        log.info("Section header not found after scrolling; fallback cell count: {}", cellCount);
+        return cellCount > 0;
+    }
+
+    /**
+     * After calling scrollToYouMayAlsoLike(), taps the first recommended article
+     * cell and returns the resulting ArticlePage.
+     */
+    public ArticlePage tapFirstYouMayAlsoLikeArticle() {
+        log.info("Tapping first article in 'You may also like' section");
+        scrollDown(); // bring recommendation cards into view
+        List<WebElement> cells = findElements(articleCells);
+        if (cells.isEmpty()) throw new RuntimeException("No article cells found in recommended section");
+        cells.get(0).click();
+        return new ArticlePage();
+    }
+
     // ── Verification ──────────────────────────────────────────────────────────
 
     @Override

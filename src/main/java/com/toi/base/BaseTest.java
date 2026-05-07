@@ -52,7 +52,7 @@ public abstract class BaseTest {
             DriverManager.getDriver().terminateApp(bundleId);
             Thread.sleep(1000);
             DriverManager.getDriver().activateApp(bundleId);
-            Thread.sleep(2000);
+            Thread.sleep(5000);
         } catch (Exception e) {
             log.warn("App restart skipped: {}", e.getMessage());
         }

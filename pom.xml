@@ -151,5 +151,11 @@
                 <suite>all</suite>
             </properties>
         </profile>
+        <profile>
+            <id>monkey</id>
+            <properties>
+                <suite>monkey</suite>
+            </properties>
+        </profile>
     </profiles>
 </project>

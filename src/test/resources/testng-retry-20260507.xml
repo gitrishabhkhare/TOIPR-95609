@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<!--
+  Retry Suite — 2026-05-07
+  Re-runs only the 22 TCs that FAILED/ERRORED on 2026-05-06.
+  Order matches original testng-sanity.xml to preserve login-state dependencies.
+  Run: mvn test -DsuiteXmlFile=src/test/resources/testng-retry-20260507.xml
+-->
+<suite name="TOI iOS — Retry (Failed TCs 2026-05-07)" verbose="1" parallel="none">
+
+    <listeners>
+        <listener class-name="com.toi.listeners.RetryListener"/>
+    </listeners>
+
+    <test name="Retry — Failed TCs">
+        <classes>
+
+            <!-- 1. AppLaunchSanityTest: 1 failed -->
+            <class name="com.toi.tests.sanity.AppLaunchSanityTest">
+                <methods>
+                    <include name="testHomeFeedHasArticles"/>
+                </methods>
+            </class>
+
+            <!-- 2. LoginSanityTest: 2 errored -->
+            <class name="com.toi.tests.sanity.LoginSanityTest">
+                <methods>
+                    <include name="testValidLogin"/>
+                    <include name="testInvalidLoginShowsError"/>
+                </methods>
+            </class>
+
+            <!-- 3. ContentSanityTest: 1 failed + 4 errored -->
+            <class name="com.toi.tests.sanity.ContentSanityTest">
+                <methods>
+                    <include name="testVideoNotAutoplayedWithSound"/>
+                    <include name="testArticlePageScrollDoesNotCrash"/>
+                    <include name="testTopHeadersContentLoads"/>
+                    <include name="testVideoShowPageOpens"/>
+                    <include name="testArticleShareOpensShareSheet"/>
+                </methods>
+            </class>
+
+            <!-- 4. TOIPlusSanityTest: 3 errored
+                 NOTE: testTOIPlusBlockerWithoutLogin MUST run before any successful login.
+                 testValidLogin above uses testuser@toi.com (not a TOI+ account), so
+                 login state should still be logged-out at this point. -->
+            <class name="com.toi.tests.sanity.TOIPlusSanityTest">
+                <methods>
+                    <include name="testTOIPlusBlockerWithoutLogin"/>
+                    <include name="testTOIPlusLogin"/>
+                    <include name="testNoAdsForTOIPlusUser"/>
+                </methods>
+            </class>
+
+            <!-- 5. NavigationSanityTest: 3 failed + 5 errored -->
+            <class name="com.toi.tests.sanity.NavigationSanityTest">
+                <methods>
+                    <include name="testAllLoginOptionsDisplayed"/>
+                    <include name="testBookmarkPromptLoginForNonLoggedInUser"/>
+                    <include name="testGamesSectionAccessible"/>
+                    <include name="testWatchTabLoading"/>
+                    <include name="testAllBottomTabsAccessible"/>
+                    <include name="testCommentsAccessibleOnArticle"/>
+                    <include name="testInterstitialAdAppears"/>
+                    <include name="testBookmarkWorksOnArticlePage"/>
+                </methods>
+            </class>
+
+            <!-- 6. ScheduleListTest: 1 failed + 2 errored -->
+            <class name="com.toi.tests.sanity.ScheduleListTest">
+                <methods>
+                    <include name="testScheduleListSectionsLoadAndPaginate"/>
+                    <include name="testAllListingsLoadProperly"/>
+                    <include name="testYouMayAlsoLikeAcrossMultipleScheduleListSections"/>
+                </methods>
+            </class>
+
+        </classes>
+    </test>
+
+</suite>

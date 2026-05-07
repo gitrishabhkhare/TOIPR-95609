@@ -41,7 +41,8 @@ public class SideNavPage extends BasePage {
     private final By gamingItem          = byPredicateString(
             "(type == 'XCUIElementTypeStaticText' OR type == 'XCUIElementTypeButton' OR type == 'XCUIElementTypeCell') AND " +
             "(label CONTAINS[cd] 'gaming' OR label CONTAINS[cd] 'games' OR label CONTAINS[cd] 'game')");
-    private final By closeBtn            = byAccessibilityId("sideNavIconDark");
+    private final By closeBtn            = byPredicateString(
+            "type == 'XCUIElementTypeButton' AND (name == 'sideNavIconDark' OR name == 'sideNavIconLight')");
 
     // ── Actions ───────────────────────────────────────────────────────────────
 
@@ -51,20 +52,23 @@ public class SideNavPage extends BasePage {
      */
     public CategoryPage tapSection(String label) {
         log.info("Side nav: tapping section '{}'", label);
-        By loc = byAccessibilityId(label);
-        if (!isDisplayed(loc)) {
-            // Fallback: match by StaticText/Button label (handles accessibility ID mismatches)
-            loc = byPredicateString(
-                    "(type == 'XCUIElementTypeStaticText' OR type == 'XCUIElementTypeButton') AND " +
-                    "label CONTAINS[cd] '" + label + "'");
-            if (!isDisplayed(loc)) {
-                // Scroll down a few times to find the section
-                for (int i = 0; i < 4 && !isDisplayed(loc); i++) {
-                    scrollDown();
-                }
-            }
+        By exactId    = byAccessibilityId(label);
+        By exactLabel = byPredicateString(
+                "(type == 'XCUIElementTypeStaticText' OR type == 'XCUIElementTypeButton') AND " +
+                "label == '" + label + "'");
+
+        if (isDisplayed(exactId))    { tap(exactId);    return new CategoryPage(label); }
+        if (isDisplayed(exactLabel)) { tap(exactLabel); return new CategoryPage(label); }
+
+        // Scroll down to find the section; check exact match after each scroll
+        for (int i = 0; i < 4; i++) {
+            scrollDown();
+            if (isDisplayed(exactId))    { tap(exactId);    return new CategoryPage(label); }
+            if (isDisplayed(exactLabel)) { tap(exactLabel); return new CategoryPage(label); }
         }
-        tap(loc);
+
+        // Final attempt — will throw if still not found
+        tap(exactId);
         return new CategoryPage(label);
     }
 

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<!--
+  Monkey Suite — random / chaos tests that verify app stability.
+  Run: mvn test -Pmonkey  OR  mvn test -Dsuite=monkey
+-->
+<suite name="TOI iOS — Monkey Suite" verbose="1" parallel="none">
+
+    <listeners>
+        <listener class-name="com.toi.listeners.RetryListener"/>
+    </listeners>
+
+    <test name="Monkey — Random Chaos Tests">
+        <groups>
+            <run>
+                <include name="monkey"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.toi.tests.monkey.MonkeyTest"/>
+        </classes>
+    </test>
+
+</suite>
